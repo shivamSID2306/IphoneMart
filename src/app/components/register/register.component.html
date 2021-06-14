@@ -1,0 +1,83 @@
+<div class="row">
+    <div class="col-md-4 offset-md-4">
+        <div class="guest-form-card card">
+
+            <div class="card-header text-center">
+                <h3><b>REGISTER</b></h3>
+            </div>
+
+            <div class="card-body">
+                <form [formGroup]="registerForm" (ngSubmit)="register()">
+                    <div class="form-group mb-4">
+                        <label for="name">Name</label>
+                        <input 
+                            name="name" 
+                            id="name" type="text" 
+                            class="form-control my-1" 
+                            formControlName="name"
+                            [ngClass]="{ 'is-invalid': registerForm.get('name').touched && registerForm.get('name').invalid }"
+                        >
+                        <span class="invalid-feedback">Name is Required.</span>
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <label for="email">Email</label>
+                        <input 
+                            name="email" 
+                            id="email" type="email" 
+                            class="form-control my-1" 
+                            formControlName="email"
+                            [ngClass]="{ 'is-invalid': registerForm.get('email').touched && registerForm.get('email').invalid }"
+                        >
+                        <span class="invalid-feedback">
+                            <span *ngIf="registerForm.get('email').hasError('required')">Email is Required.</span>
+                            <span *ngIf="registerForm.get('email').hasError('email')">Email must be Valid.</span>
+                        </span>
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <label for="username">Username</label>
+                        <input 
+                            name="username" 
+                            id="username" type="text" 
+                            class="form-control my-1" 
+                            formControlName="username"
+                            [ngClass]="{ 'is-invalid': registerForm.get('username').touched && registerForm.get('username').invalid }"
+                        >
+                        <span class="invalid-feedback">Username is Required.</span>
+                    </div>
+                
+                    <div class="form-group my-4">
+                        <label for="password">Password</label>
+                        <input 
+                            name="password" 
+                            id="password" type="password" 
+                            class="form-control my-1" 
+                            formControlName="password"
+                            [ngClass]="{ 'is-invalid': registerForm.get('password').touched && registerForm.get('password').invalid }"
+                        >
+                        <span class="invalid-feedback">
+                            <span *ngIf="registerForm.get('password').getError('required')">Password is Required.</span>
+                            <span *ngIf="registerForm.get('password').getError('minlength')">Password should be Minumum of 4 Character.</span>
+                            <span *ngIf="registerForm.get('password').getError('symbol')">Password must contain one '@'.</span>
+                        </span>
+                    </div>
+
+                    <div class="form-group my-4">
+                        <label for="confirmpassword">Confirm Password</label>
+                        <input 
+                            name="confirmpassword" 
+                            id="confirmpassword" type="password" 
+                            class="form-control my-1" 
+                            formControlName="confirmPassword"
+                            [ngClass]="{ 'is-invalid': registerForm.get('confirmPassword').invalid }"
+                        >
+                        <span class="invalid-feedback">Password must Match.</span>
+                    </div>
+                
+                    <button [disabled]="registerForm.invalid" class="btn btn-primary mt-3">Register</button>
+                </form>  
+            </div>
+        </div>
+    </div>
+</div>

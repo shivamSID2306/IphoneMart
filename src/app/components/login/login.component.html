@@ -1,0 +1,49 @@
+<div class="row">
+    <div class="col-md-4 offset-md-4">
+        <div class="guest-form-card card">
+
+            <div class="card-header text-center">
+                <h3><b>LOGIN</b></h3>
+            </div>
+
+            <div class="card-body">
+                <form #loginForm="ngForm" (ngSubmit)="Login()">
+                    <div class="form-group mb-4">
+                        <label for="username">Username</label>
+                        <input #username="ngModel" required name="username" [(ngModel)]="model.username" id="username" type="text" class="form-control my-1" [class.is-invalid]="username.touched && username.invalid">
+                        <div class="invalid-feedback" *ngIf="username.touched && username.invalid">
+                            <div *ngIf="username.errors.required">
+                                Username is Required.
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="form-group my-4">
+                        <label for="password">Password</label>
+                        <input minlength="4" #password="ngModel" required name="password" [(ngModel)]="model.password" id="password" type="password" class="form-control my-1" [class.is-invalid]="password.touched && password.invalid">
+                        <div class="invalid-feedback" *ngIf="password.touched && password.invalid">
+                            <div *ngIf="password.errors.required">
+                                Password is Required.
+                            </div>
+                            <div *ngIf="password.errors.minlength">
+                                Password should be Minimum of 4 Characters.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <input name="rememberme" [(ngModel)]="model.rememberme" id="rememberme" type="checkbox" class="my-1">
+                        <label class="ms-1" for="rememberme">Remember Me</label>
+                    </div>
+                
+                    <button [disabled]="loginForm.invalid" class="btn btn-primary mt-3">Login</button>
+                </form>  
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- <p>
+    <a [routerLink]="['/register']">Register</a>
+</p> -->

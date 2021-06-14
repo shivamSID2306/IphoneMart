@@ -1,0 +1,237 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Iphone 11",
+      "description": "Beautiful Design and features",
+      "price": 50000,
+      "imageUrl": "https://thekukoo.com/wp-content/uploads/2019/09/iphone11-green-select-2019.png"
+    },
+    {
+      "id": 2,
+      "name": "Iphone xr",
+      "description": "More colors and features",
+      "price": 35000,
+      "imageUrl": "https://www.theioutlet.com/wp-content/uploads/2019/05/iphone-xr-yellow-select-201809.png"
+    },
+    {
+      "id": 3,
+      "name": "Iphone 11 pro",
+      "description": "Pro build and camera",
+      "price": 90000,
+      "imageUrl": "https://www.winmagpro.nl/sites/default/files/styles/article-image/public/iphone-11-pro-max-space-select-2019.png?itok=3yGP7fUP"
+    },
+    {
+      "id": 4,
+      "name": "Iphone x",
+      "description": "All new design",
+      "price": 70000,
+      "imageUrl": "https://shopdunk.com/wp-content/uploads/2017/11/iphone-x-1-min.png"
+    },
+    {
+      "id": 5,
+      "name": "Iphone 12 pro",
+      "description": "Most powerfull processor yet",
+      "price": 105000,
+      "imageUrl": "https://hiphone.info/wp-content/uploads/2020/10/iphone-12-pro-max-silver-hero.png"
+    },
+    {
+      "id": 6,
+      "name": "Iphone xs max",
+      "description": "Old is GOLD",
+      "price": 75000,
+      "imageUrl": "https://tech2com.com/wp-content/uploads/2020/04/iPhone-XS-Max_Gold.png"
+    },
+    {
+      "id": 7,
+      "name": "Iphone 12 pro max",
+      "description": "Best smartphone",
+      "price": 130000,
+      "imageUrl": "https://zdnet4.cbsistatic.com/hub/i/r/2020/10/21/25999ae5-5538-41da-b025-eb44ce8b8c81/resize/1200xauto/b82044831c8ab0ed40a66911565aeb10/iphone-12-pro-max-blue-hero.png"
+    }
+  ],
+  "wishlist": [
+    {
+      "id": 1
+    }
+  ],
+  "cart": [
+    {
+      "product": {
+        "id": 3,
+        "name": "Iphone 11 pro",
+        "description": "Pro build and camera",
+        "price": 90000,
+        "imageUrl": "https://www.winmagpro.nl/sites/default/files/styles/article-image/public/iphone-11-pro-max-space-select-2019.png?itok=3yGP7fUP"
+      },
+      "id": 1
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Iphone xr",
+        "description": "More colors and features",
+        "price": 35000,
+        "imageUrl": "https://www.theioutlet.com/wp-content/uploads/2019/05/iphone-xr-yellow-select-201809.png"
+      },
+      "id": 2
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Iphone 11",
+        "description": "Beautiful Design and features",
+        "price": 50000,
+        "imageUrl": "https://thekukoo.com/wp-content/uploads/2019/09/iphone11-green-select-2019.png"
+      },
+      "id": 3
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Iphone 11",
+        "description": "Beautiful Design and features",
+        "price": 50000,
+        "imageUrl": "https://thekukoo.com/wp-content/uploads/2019/09/iphone11-green-select-2019.png"
+      },
+      "id": 4
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Iphone 11",
+        "description": "Beautiful Design and features",
+        "price": 50000,
+        "imageUrl": "https://thekukoo.com/wp-content/uploads/2019/09/iphone11-green-select-2019.png"
+      },
+      "id": 5
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Iphone 11",
+        "description": "Beautiful Design and features",
+        "price": 50000,
+        "imageUrl": "https://thekukoo.com/wp-content/uploads/2019/09/iphone11-green-select-2019.png"
+      },
+      "id": 6
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Iphone 11",
+        "description": "Beautiful Design and features",
+        "price": 50000,
+        "imageUrl": "https://thekukoo.com/wp-content/uploads/2019/09/iphone11-green-select-2019.png"
+      },
+      "id": 7
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Iphone 11 pro",
+        "description": "Pro build and camera",
+        "price": 90000,
+        "imageUrl": "https://www.winmagpro.nl/sites/default/files/styles/article-image/public/iphone-11-pro-max-space-select-2019.png?itok=3yGP7fUP"
+      },
+      "id": 8
+    },
+    {
+      "product": {
+        "id": 5,
+        "name": "Iphone 12 pro",
+        "description": "Most powerfull processor yet",
+        "price": 105000,
+        "imageUrl": "https://hiphone.info/wp-content/uploads/2020/10/iphone-12-pro-max-silver-hero.png"
+      },
+      "id": 9
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Iphone xr",
+        "description": "More colors and features",
+        "price": 35000,
+        "imageUrl": "https://www.theioutlet.com/wp-content/uploads/2019/05/iphone-xr-yellow-select-201809.png"
+      },
+      "id": 10
+    },
+    {
+      "product": {
+        "id": 7,
+        "name": "Iphone 12 pro max",
+        "description": "Best smartphone",
+        "price": 130000,
+        "imageUrl": "https://zdnet4.cbsistatic.com/hub/i/r/2020/10/21/25999ae5-5538-41da-b025-eb44ce8b8c81/resize/1200xauto/b82044831c8ab0ed40a66911565aeb10/iphone-12-pro-max-blue-hero.png"
+      },
+      "id": 11
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Iphone 11",
+        "description": "Beautiful Design and features",
+        "price": 50000,
+        "imageUrl": "https://thekukoo.com/wp-content/uploads/2019/09/iphone11-green-select-2019.png"
+      },
+      "id": 12
+    },
+    {
+      "product": {
+        "id": 6,
+        "name": "Iphone xs max",
+        "description": "Old is GOLD",
+        "price": 75000,
+        "imageUrl": "https://tech2com.com/wp-content/uploads/2020/04/iPhone-XS-Max_Gold.png"
+      },
+      "id": 13
+    },
+    {
+      "product": {
+        "id": 7,
+        "name": "Iphone 12 pro max",
+        "description": "Best smartphone",
+        "price": 130000,
+        "imageUrl": "https://zdnet4.cbsistatic.com/hub/i/r/2020/10/21/25999ae5-5538-41da-b025-eb44ce8b8c81/resize/1200xauto/b82044831c8ab0ed40a66911565aeb10/iphone-12-pro-max-blue-hero.png"
+      },
+      "id": 14
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Iphone 11 pro",
+        "description": "Pro build and camera",
+        "price": 90000,
+        "imageUrl": "https://www.winmagpro.nl/sites/default/files/styles/article-image/public/iphone-11-pro-max-space-select-2019.png?itok=3yGP7fUP"
+      },
+      "id": 15
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Iphone 11",
+        "description": "Beautiful Design and features",
+        "price": 50000,
+        "imageUrl": "https://thekukoo.com/wp-content/uploads/2019/09/iphone11-green-select-2019.png"
+      },
+      "id": 16
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

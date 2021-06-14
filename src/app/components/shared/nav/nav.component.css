@@ -1,0 +1,13 @@
+.btn {
+  border-radius: 0;
+}
+
+.btn-primary {
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.btn-outline-secondary {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}

@@ -1,0 +1,7 @@
+.btn.btn-primary {
+  width: 100%;
+  cursor: pointer;
+}
+.alert.alert-danger {
+  box-shadow: 0px 0px 3px red;
+}

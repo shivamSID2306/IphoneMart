@@ -1,0 +1,18 @@
+.btn-group {
+  margin-left: 1rem;
+}
+.bi.bi-cart-fill {
+  margin-bottom: 3.2px;
+}
+
+.bi.bi-heart {
+  margin-left: 8rem;
+  color: palevioletred;
+  cursor: pointer;
+}
+
+.bi.bi-heart-fill {
+  margin-left: 8rem;
+  color: palevioletred;
+  cursor: pointer;
+}
